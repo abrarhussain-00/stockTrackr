@@ -11,4 +11,7 @@ Java application for inventory management, enabling users to administer categori
 - Spring MVC
 - BCrypt
 
-<video src="stocktrackr/src/main/resources/static/demo/demoVid.mov"></video>
+
+
+https://user-images.githubusercontent.com/117599985/228955652-d468a23a-dc59-497e-a714-5ec5569de8cb.mov
+
