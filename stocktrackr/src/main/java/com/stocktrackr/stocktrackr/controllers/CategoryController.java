@@ -50,7 +50,7 @@ public class CategoryController {
 		
 
 		categoryServ.create(category);
-		return "redirect:/categories/create";
+		return "redirect:/";
 	}
 	
 	@DeleteMapping("/categories/{id}")
