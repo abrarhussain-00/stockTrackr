@@ -12,12 +12,15 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Coming+Soon&family=Indie+Flower&family=Roboto&family=Shadows+Into+Light&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="/css/main.css">
+        <script src="https://kit.fontawesome.com/5492dab26b.js" crossorigin="anonymous"></script>
+
+        <link rel="stylesheet" href="/css/main.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>StockTrackr</title>
 </head>
+<body>
 <center>
     <div class="container my-5">
         <center><h1 class="">Edit a Product</h1></center>
@@ -72,4 +75,8 @@
         </div>
     </div>
     </center>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
+    crossorigin="anonymous"></script>
+</body>
 </html>

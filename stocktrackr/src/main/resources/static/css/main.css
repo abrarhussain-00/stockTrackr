@@ -33,15 +33,29 @@ body {
   flex: 1;
 }
 
-table{
+.tableScroll {
   overflow-y:scroll;
-  height:250px;
+  height:300px;
   display:block;
 }
 
-.scrollCategory{
-  overflow-y:scroll;
-  display:block;
+thead {
+  background-color: rgb(52,58,63);
+  color: white;
+}
+
+.descriptionBox{
+  /* background-color: rgba(52,58,63,0.5); */
+  border-radius: 50px;
+  margin: 10px;
+  padding: 10px;
+  max-width: 300px;
+} 
+
+
+.vl {
+  border-left: 1px solid black;
+  height: 500px;
 }
 
 img {

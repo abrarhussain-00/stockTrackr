@@ -54,36 +54,47 @@
             </div>
             <!-- ============================Body============================ -->
             <div class="container my-5">
-                <div class="d-flex flex-column align-items-center">
-                    <h2 class="loginRegHeader">Register</h2>
-                    <hr>
-                    <!-- =========== FORM =============Username Input============================-->
-                    <form:form action="/process/register" method="post" modelAttribute="newUser">
-                        <div class="form-group">
-                            <form:input path="userName" type="text" class="form-control" placeholder="Username" />
-                            <form:errors path="userName" class="text-danger" />
-                        </div>
-                        <!-- ============================Email Input============================-->
-                        <div class="form-group ">
-                            <form:input path="email" type="email" class="form-control" placeholder="Email" />
-                            <form:errors path="email" class="text-danger" />
-                        </div>
-                        <!-- ============================Password Input============================ -->
-                        <div class="form-group">
-                            <form:input path="password" type="password" class="form-control" placeholder="Password" />
-                            <form:errors path="password" class="text-danger" />
-                        </div>
-                        <!-- ============================Confirm Password Input============================ -->
-                        <div class="form-group">
-                            <form:input path="confirm" type="password" class="form-control"
-                                placeholder="Confirm Password" />
-                            <form:errors path="confirm" class="text-danger" />
-                        </div>
-                        <!--============================Submit============================-->
-                        <div class=" d-flex justify-content-start">
-                            <input type="submit" value="Submit" class="btn btn-success btn-sm" />
-                        </div>
-                    </form:form>
+                <div class="d-flex justify-content-center text-center gap-5">
+                    <div class="col-5 descriptionBox">
+                        <h5>What is StockTrackr?</h5>
+                        <br/>
+                        <p>
+                            A free inventory app helping small businesses track their inventory in real-time, leading to better 
+                            customer service, improved accuracy, and cost savings. It is a useful investment for businesses 
+                            looking to optimize their inventory management process and increase efficiency.
+                        </p>
+                    </div>
+                    <div class="vl"></div>
+                    <div class="col-5 align-items-center">
+                        <h2 class="loginRegHeader mb-4">Register</h2>
+                        <!-- =========== FORM =============Username Input============================-->
+                        <form:form action="/process/register" method="post" modelAttribute="newUser">
+                            <div class="form-group">
+                                <form:input path="userName" type="text" class="form-control" placeholder="Username" />
+                                <form:errors path="userName" class="text-danger" />
+                            </div>
+                            <!-- ============================Email Input============================-->
+                            <div class="form-group ">
+                                <form:input path="email" type="email" class="form-control" placeholder="Email" />
+                                <form:errors path="email" class="text-danger" />
+                            </div>
+                            <!-- ============================Password Input============================ -->
+                            <div class="form-group">
+                                <form:input path="password" type="password" class="form-control" placeholder="Password" />
+                                <form:errors path="password" class="text-danger" />
+                            </div>
+                            <!-- ============================Confirm Password Input============================ -->
+                            <div class="form-group">
+                                <form:input path="confirm" type="password" class="form-control"
+                                    placeholder="Confirm Password" />
+                                <form:errors path="confirm" class="text-danger" />
+                            </div>
+                            <!--============================Submit============================-->
+                            <div class=" d-flex justify-content-start">
+                                <input type="submit" value="Submit" class="btn btn-success btn-sm" />
+                            </div>
+                        </form:form>
+                    </div>
                 </div>
             </div>
             <!-- ============================ Footer ============================ -->

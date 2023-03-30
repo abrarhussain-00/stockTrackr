@@ -8,6 +8,7 @@ taglib prefix = "c" uri = "http://java.sun.com/jsp/jstl/core" %>
     <link href="https://fonts.googleapis.com/css2?family=Coming+Soon&family=Indie+Flower&family=Roboto&family=Shadows+Into+Light&display=swap" rel="stylesheet"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css"/>
+    <script src="https://kit.fontawesome.com/5492dab26b.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="/css/main.css" />
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -34,6 +35,11 @@ taglib prefix = "c" uri = "http://java.sun.com/jsp/jstl/core" %>
                         <li class="nav-item">
                             <a class="nav-link active" href="/products/create">Add Product</a>
                         </li>
+                    </ul>
+                    <ul class="navbar-nav align-items-start">
+                      <li class="nav-item">
+                          <a class="nav-link active" href="/products">View all Products</a>
+                      </li>
                     </ul>
                 </div>
 				<span>
@@ -85,7 +91,7 @@ taglib prefix = "c" uri = "http://java.sun.com/jsp/jstl/core" %>
             </form:form>
           </div>
 
-          <!-- <div>
+          <div>
             <h4 class="mt-4">All Categories</h4>
             <div class="col-5 scrollBar">
               <table class="table table-striped w-auto">
@@ -117,40 +123,41 @@ taglib prefix = "c" uri = "http://java.sun.com/jsp/jstl/core" %>
                 </tbody>
               </table>
             </div>
-          </div> -->
+          </div>
         </div>
       </div>
     </center>
             <!-- ============================Potential Bottom NavBar============================ -->
-<div class="footer-dark fixed-bottom">
-  <footer>
-  <div class="container">
-      <div class="row">
-          <div class="col-sm-6 col-md-3 item">
-              <h3>About</h3>
-              <ul>
-              <li><a href="#">Learn More</a></li>
-              <li><a href="#">FAQ</a></li>
-              </ul>
-          </div>
-          <div class="col-sm-6 col-md-3 item">
-              <h3>Meet the Developers</h3>
-              <ul>
-              <li><a href="www.abrarbiz.net">Abrar Hussain</a></li>
-              <li><a href="/">Jessica Petrey</a></li>
-              </ul>
-          </div>
-          <div class="col-md-6 item text">
-              <div class="col item social">
-                  <a href="#"><i class="icon ion-social-facebook"></i></a>
-                  <a href="#"><i class="icon ion-social-twitter"></i></a>
-                  <a href="#"><i class="icon ion-social-snapchat"></i></a>
-                  <a href="#"><i class="icon ion-social-instagram"></i></a>
-              </div>
-          </div>
-      </div>
-      <p class="copyright">stockTrackr © 2023</p>
-  </div>
-  </footer>
+<div>
+  <footer class="footer-dark mt-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-3 item">
+                <h3>About</h3>
+                <ul>
+                    <li><a href="#">Learn More</a></li>
+                    <li><a href="#">FAQ</a></li>
+                </ul>
+            </div>
+            <div class="col-sm-4 item">
+                <h3>Meet the Developers</h3>
+                <ul>
+                    <li><a href="www.abrarbiz.net">Abrar Hussain</a></li>
+                    <li><a href="">Jessica Petrey</a></li>
+                </ul>
+            </div>
+            <div class="col-sm-5 item">
+                <div class="col item social"><a href="#"><i class="icon ion-social-facebook"></i></a><a
+                        href="#"><i class="icon ion-social-twitter"></i></a><a href="#"><i
+                            class="icon ion-social-snapchat"></i></a><a href="#"><i
+                            class="icon ion-social-instagram"></i></a></div>
+            </div>
+        </div>
+        <p class="copyright">stockTrackr © 2023</p>
+    </div>
+</footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
+  crossorigin="anonymous"></script>
   </body>
 </html>

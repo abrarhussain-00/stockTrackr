@@ -40,9 +40,9 @@
 							<li class="nav-item">
 								<a class="nav-link active" aria-current="page" href="/register">Register</a>
 							</li>
-							<li class="nav-item">
+							<!-- <li class="nav-item">
 								<a class="nav-link active" href="/login">Login</a>
-							</li>
+							</li> -->
 						</ul>
 				</span>
 			</div>
@@ -72,6 +72,7 @@
 						<!--============================Submit============================-->
 						<div class="d-flex justify-content-between align-items-center">
 							<input type="submit" value="Submit" class="btn btn-success btn-sm" />
+							<a href="#">Forgot Password</a>
 						</div>
 					</form:form>
 				</div>

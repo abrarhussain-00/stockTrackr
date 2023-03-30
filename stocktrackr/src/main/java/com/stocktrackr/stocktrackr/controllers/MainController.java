@@ -31,7 +31,7 @@ public class MainController {
 	@GetMapping("/")
 	public String home( HttpSession session, Model model) {
 		if(session.getAttribute("user_id") == null) {
-			return "redirect:/login";
+			return "redirect:/register";
 		}
 		model.addAttribute("loggedInUser", userServ.getOne((Long) session.getAttribute("user_id")))	
 			.addAttribute("allProducts", productServ.getAll())
