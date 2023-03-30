@@ -1,4 +1,4 @@
-# StockTrakr
+# StockTrackr
 ## Created By: Abrar Hussain & Jessica Petrey
 
 ## Description:
